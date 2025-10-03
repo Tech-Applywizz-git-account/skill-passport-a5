@@ -502,13 +502,13 @@ const SignupPage: React.FC = () => {
             email: form.email,
             phone: form.phone,
             country_code: form.countryCode,
-            promo_code: "Karthikeya",
+            promo_code: "a5",
           }
         ]);
 
       if (leadsError) throw leadsError;
       // setTimeout(() => setShowDialog(false), 3000);
-      window.location.href = "https://www.paypal.com/ncp/payment/SYFTQJB6KNX42";
+      window.location.href = "https://www.paypal.com/ncp/payment/MP395LU69L6XA";
     } catch (err: any) {
       setError(err.message || "Something went wrong. Try again.");
     } finally {
